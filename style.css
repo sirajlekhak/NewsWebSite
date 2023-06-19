@@ -9,6 +9,19 @@ html, body{
     width: 100%;
 }
 
+@font-face {
+    font-family: canopee;
+    src: url('fonts/Canopee.woff2');
+  }
+  @font-face {
+    font-family: domain;
+    src: url('fonts/DomaineDispCondMedium.woff2');
+  }
+  @font-face {
+    font-family: editorial;
+    src: url('fonts/EditorialNew-Light.woff2');
+  }
+
 #page1{
     height: 100vh;
     width: 100vw;
@@ -56,7 +69,7 @@ width: 30%;
 }
 
 #elem2{
-    width: 25%;
+    width: 30%;
     height: 100%;
     border-left: 2px solid #A19B93;
     border-right: 2px solid #A19B93;
@@ -73,6 +86,7 @@ width: 30%;
     height: 60%;
     width: 100%;
     overflow: hidden;
+    border: 1px solid black;
 }
 
 #image-div:hover img{
@@ -84,10 +98,92 @@ width: 30%;
     width: 100%;
     object-fit: cover;
     transition: all ease 0.4s;
+  
 }
 
 #elem3 #image-div{
     height: 60%;
     width: 100%;
     overflow: hidden;
+    border: 1px solid black;
+}
+
+#elem1 h4{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: canopee;
+}
+
+#elem1 h4 span{
+    background-color: #B43B12;
+    padding: 4px;
+    color: #C4BCB3;
+    font-weight: 100;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+#elem1 p{
+    font-size: 22px;
+    font-family: domain;
+    font-weight: 100;
+    color: #1d1d1b;
+}
+
+#elem3 h4{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: canopee;
+}
+
+#elem3 h4 span{
+    background-color: #B43B12;
+    padding: 4px;
+    color: #C4BCB3;
+    font-weight: 100;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+#elem3 p{
+    font-size: 22px;
+    font-family: domain;
+    font-weight: 100;
+    color: #1d1d1b;
+}
+
+#elem2 h2{
+    font-family: canopee;
+    font-size: 80px;
+    font-weight: 120;
+}
+
+#elem2 h3{
+    font-family: domain;
+    font-size: 50px;
+    font-weight: 100;
+    color: #2f2f2f;
+}
+
+#elem2 h6{
+    font-family: editorial;
+    font-size: 20px;
+    font-weight: 100;
+    color: #2f2f2f;
+    margin-top: 50px;
+}
+
+#elem2 h6 span{
+    font-family: editorial;
+    font-size: 20px;
+    font-weight: 100;
+    color: #2f2f2f;
+    font-weight: bold;
+}
+
+#page1 h1{
+    font-family: canopee;
+    font-size: 665px;
 }
